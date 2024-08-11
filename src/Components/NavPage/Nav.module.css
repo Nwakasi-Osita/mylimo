@@ -22,9 +22,12 @@
 .navigationSection .navigationMenu ul a {
   font-size: 18px;
 }
+.navigationSection .navigationMenu ul a:hover {
+  color: #332e2e;
+}
 .navigationSection .convertingLanguages select {
   margin-top: 30px;
-  background-color: #000;
+  background-color: #1b1818;
   color: #fff;
   padding: 7px;
 }

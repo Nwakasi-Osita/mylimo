@@ -21,13 +21,17 @@
       gap: 4rem;
       a {
         font-size: 18px;
+
+        &:hover {
+          color: #332e2e;
+        }
       }
     }
   }
 
   .convertingLanguages select {
     margin-top: 30px;
-    background-color: #000;
+    background-color: #1b1818;
     color: #fff;
     padding: 7px;
   }

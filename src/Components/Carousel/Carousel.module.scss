@@ -1,9 +1,13 @@
 .ourFleetSection {
-  margin-top: 11rem;
+  margin: 11rem 0;
 
+  color: #000;
   .ourFleet {
+    padding: 4rem;
+
     display: flex;
     flex-direction: column;
+    background-color: #1459bf;
     gap: 7px;
 
     h2 {

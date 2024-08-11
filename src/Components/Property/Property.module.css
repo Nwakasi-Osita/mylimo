@@ -8,7 +8,7 @@
   gap: 10px;
   padding: 20px;
   color: #000;
-  background: linear-gradient(rgba(52, 47, 47, 0.454) 70%, rgba(0, 0, 0, 0.761) 100%);
+  background-color: aliceblue;
   border-radius: 15px;
 }
 .carDetail .carDetailImg img {
@@ -28,7 +28,7 @@
   justify-content: space-between;
   gap: 10px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.7529411765);
+  background-color: #1459bf;
   border-radius: 15px;
 }
 .aboutCar .aboutCarDetail {

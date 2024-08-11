@@ -1,0 +1,57 @@
+.footerSection {
+  background-color: #1459bf;
+  margin-top: 8rem;
+  padding: 1rem;
+
+  .footerSectionDetails {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: center;
+
+    padding: 4rem;
+    justify-items: center;
+
+    color: #fff;
+
+    h2 {
+      // background-color: red;
+      margin: 10px 0;
+    }
+
+    li {
+      padding: 5px 0;
+
+      // list-style: disc;
+      a {
+        color: #fff;
+        font-size: 18px;
+      }
+    }
+
+    img {
+      width: 7%;
+      object-fit: cover;
+    }
+
+    p {
+      line-height: 45px;
+      align-items: center;
+    }
+
+    span {
+      // background-color: purple;
+      padding: 0 5px;
+
+      // gap: 20px;
+    }
+  }
+
+  .copyRight {
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+  }
+}
