@@ -1,0 +1,14 @@
+.ourFleetSection {
+  margin-top: 11rem;
+}
+.ourFleetSection .ourFleet {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.ourFleetSection .ourFleet h2 {
+  font-size: 35px;
+}
+.ourFleetSection .ourFleet h4 {
+  font-size: 20px;
+}

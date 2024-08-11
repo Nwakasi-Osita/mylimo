@@ -1,0 +1,34 @@
+.navigationSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+
+  .logo {
+    margin-top: 30px;
+    margin-top: 30px;
+    color: #000;
+    .logoFirstTwoLaters {
+      color: rgb(75, 151, 223);
+    }
+  }
+
+  .navigationMenu {
+    margin-top: 30px;
+
+    ul {
+      display: flex;
+      gap: 4rem;
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .convertingLanguages select {
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 7px;
+  }
+}

@@ -1,0 +1,30 @@
+.navigationSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.navigationSection .logo {
+  margin-top: 30px;
+  margin-top: 30px;
+  color: #000;
+}
+.navigationSection .logo .logoFirstTwoLaters {
+  color: rgb(75, 151, 223);
+}
+.navigationSection .navigationMenu {
+  margin-top: 30px;
+}
+.navigationSection .navigationMenu ul {
+  display: flex;
+  gap: 4rem;
+}
+.navigationSection .navigationMenu ul a {
+  font-size: 18px;
+}
+.navigationSection .convertingLanguages select {
+  margin-top: 30px;
+  background-color: #000;
+  color: #fff;
+  padding: 7px;
+}
