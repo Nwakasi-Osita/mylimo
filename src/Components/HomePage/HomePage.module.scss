@@ -5,27 +5,39 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 1000px;
+  height: 500px;
+
+  @media screen and (min-width: 768px) {
+    height: 1000px;
+  }
 }
 
 .description {
   justify-content: center;
   align-items: center;
-  padding: 4rem 0;
-  margin: 10rem 0;
+  padding: 2rem 2rem;
+  margin: 5rem 2rem;
   max-width: 400px;
 
   .HomePageHeader {
-    font-size: 45px;
+    font-size: 23px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 45px;
+    }
   }
 
   .purchaseButton {
     margin-top: 3rem;
   }
+
+  @media screen and (min-width: 768px) {
+    padding: 4rem 0;
+    margin: 10rem 0;
+  }
 }
 
 ///////////////////////
-///
 
 .UserScheduleSection {
   // background-color: #1459bf;
@@ -152,20 +164,38 @@
 
       h2 {
         font-size: 35px;
+
+        @media screen and (min-width: 768px) {
+          // display: flex;
+          // gap: 20px;
+        }
       }
       h4 {
         font-size: 20px;
+
+        @media screen and (min-width: 768px) {
+          // display: flex;
+          // gap: 20px;
+        }
       }
+    }
+
+    @media screen and (min-width: 768px) {
+      // display: flex;
+      // gap: 20px;
     }
   }
 
   .servicesSection {
     padding-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     align-items: center;
 
     gap: 20px;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .service {

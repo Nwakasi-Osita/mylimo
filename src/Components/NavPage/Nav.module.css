@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 15px;
 }
 .navigationSection .logo {
   margin-top: 30px;
@@ -17,7 +17,7 @@
 }
 .navigationSection .navigationMenu ul {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 .navigationSection .navigationMenu ul a {
   font-size: 18px;
@@ -25,9 +25,19 @@
 .navigationSection .navigationMenu ul a:hover {
   color: #332e2e;
 }
+@media screen and (min-width: 768px) {
+  .navigationSection .navigationMenu ul {
+    gap: 4rem;
+  }
+}
 .navigationSection .convertingLanguages select {
   margin-top: 30px;
   background-color: #1b1818;
   color: #fff;
   padding: 7px;
+}
+@media screen and (min-width: 768px) {
+  .navigationSection {
+    font-size: 20px;
+  }
 }

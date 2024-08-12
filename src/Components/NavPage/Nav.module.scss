@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 15px;
 
   .logo {
     margin-top: 30px;
@@ -18,13 +18,17 @@
 
     ul {
       display: flex;
-      gap: 4rem;
+      gap: 2rem;
       a {
         font-size: 18px;
 
         &:hover {
           color: #332e2e;
         }
+      }
+      @media screen and (min-width: 768px) {
+        gap: 4rem;
+        // padding: 1rem;
       }
     }
   }
@@ -34,5 +38,10 @@
     background-color: #1b1818;
     color: #fff;
     padding: 7px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    // padding: 1rem;
   }
 }
