@@ -151,8 +151,8 @@ export default function FooterPage() {
           </div>
         </Container>
         <Container className={styles.copyRight}>
-          &copy; MyLimo Limousine Service - All Rights Reserved|Legal
-          Notice|Pricacy Policy{" "}
+          &copy; MyLimo Limousine Service - All Rights Reserved|Legal Notice |
+          Pricacy Policy{" "}
         </Container>
       </div>
     </>
