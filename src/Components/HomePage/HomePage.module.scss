@@ -295,9 +295,9 @@
       @media screen and (min-width: 768px) {
         padding: 2rem;
 
-        top: 50px;
-        right: 80px;
-        width: 580px;
+        top: 40px;
+        right: 100px;
+        width: 560px;
         height: 360px;
       }
     }
@@ -353,8 +353,8 @@
   background-color: #000000c7;
   color: #fff;
   display: flex;
-  gap: 4rem;
-  padding: 1rem 1rem;
+  gap: 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 28px;
   @media screen and (min-width: 768px) {
     gap: 8rem;
