@@ -1,26 +1,43 @@
 .footerSection {
   background-color: #1459bf;
-  margin-top: 8rem;
+  margin-top: 4rem;
   padding: 1rem;
 }
 .footerSection .footerSectionDetails {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-  justify-content: center;
   padding: 4rem;
-  justify-items: center;
+  gap: 25px;
   color: #fff;
 }
 .footerSection .footerSectionDetails h2 {
-  margin: 10px 0;
+  margin: 5px 0;
+  font-size: 20px;
 }
-.footerSection .footerSectionDetails li {
+@media screen and (min-width: 768px) {
+  .footerSection .footerSectionDetails h2 {
+    margin: 10px 0;
+    font-size: 35px;
+  }
+}
+.footerSection .footerSectionDetails .serviceSection {
+  align-items: center;
+}
+.footerSection .footerSectionDetails .serviceSection .serviceSectionDetail {
+  align-items: center;
+}
+.footerSection .footerSectionDetails .serviceSection .serviceSectionDetail ul {
+  padding-inline-start: 0;
+}
+.footerSection .footerSectionDetails .serviceSection .serviceSectionDetail ul li {
   padding: 5px 0;
 }
-.footerSection .footerSectionDetails li a {
+.footerSection .footerSectionDetails .serviceSection .serviceSectionDetail ul li a {
   color: #fff;
-  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .footerSection .footerSectionDetails .serviceSection .serviceSectionDetail ul li a {
+    margin: 10px 0;
+  }
 }
 .footerSection .footerSectionDetails img {
   width: 7%;
@@ -28,11 +45,41 @@
      object-fit: cover;
 }
 .footerSection .footerSectionDetails p {
-  line-height: 45px;
+  line-height: 25px;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .footerSection .footerSectionDetails p {
+    line-height: 45px;
+  }
 }
 .footerSection .footerSectionDetails span {
   padding: 0 5px;
+}
+.footerSection .footerSectionDetails .contactSection p {
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .footerSection .footerSectionDetails .contactSection p {
+    font-size: 17px;
+  }
+}
+.footerSection .footerSectionDetails .locationSection p {
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .footerSection .footerSectionDetails .locationSection p {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerSection .footerSectionDetails {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem;
+    gap: 50px;
+    justify-content: center;
+    justify-items: center;
+  }
 }
 .footerSection .copyRight {
   text-align: center;
@@ -40,4 +87,10 @@
   justify-content: center;
   justify-self: center;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .footerSection {
+    margin-top: 8rem;
+    padding: 1rem;
+  }
 }

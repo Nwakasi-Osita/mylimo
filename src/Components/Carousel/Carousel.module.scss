@@ -1,20 +1,35 @@
 .ourFleetSection {
-  margin: 11rem 0;
+  margin: 2rem 0;
 
   color: #000;
   .ourFleet {
-    padding: 4rem;
-
     display: flex;
     flex-direction: column;
     background-color: #1459bf;
     gap: 7px;
+    padding: 4rem;
 
     h2 {
-      font-size: 35px;
+      font-size: 20px;
+      @media screen and (min-width: 768px) {
+        font-size: 35px;
+      }
     }
     h4 {
-      font-size: 20px;
+      font-size: 18px;
+
+      @media screen and (min-width: 768px) {
+        font-size: 20px;
+      }
     }
+
+    @media screen and (min-width: 768px) {
+      gap: 7px;
+      padding: 4rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 11rem 0;
   }
 }

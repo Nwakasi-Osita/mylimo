@@ -2,28 +2,38 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 15px;
 }
 .navigationSection .logo {
   margin-top: 30px;
-  margin-top: 30px;
   color: #000;
+  display: none;
 }
 .navigationSection .logo .logoFirstTwoLaters {
   color: rgb(75, 151, 223);
+}
+@media screen and (min-width: 768px) {
+  .navigationSection .logo {
+    font-size: 15px;
+    display: block;
+  }
 }
 .navigationSection .navigationMenu {
   margin-top: 30px;
 }
 .navigationSection .navigationMenu ul {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 .navigationSection .navigationMenu ul a {
-  font-size: 18px;
+  font-size: 15px;
 }
 .navigationSection .navigationMenu ul a:hover {
   color: #332e2e;
+}
+@media screen and (min-width: 768px) {
+  .navigationSection .navigationMenu ul a {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 768px) {
   .navigationSection .navigationMenu ul {
@@ -34,10 +44,13 @@
   margin-top: 30px;
   background-color: #1b1818;
   color: #fff;
-  padding: 7px;
+  padding: 2px;
+  font-size: 10px;
+  margin-right: 1rem;
 }
 @media screen and (min-width: 768px) {
-  .navigationSection {
-    font-size: 20px;
+  .navigationSection .convertingLanguages select {
+    font-size: 13px;
+    margin-right: 0;
   }
 }

@@ -9,10 +9,9 @@
   background: #1459bf;
 
   font-weight: 400;
-  font-size: 20px;
-
+  font-size: 15px;
+  padding: 1rem 1rem;
   transition: all 0.5s ease;
-  padding: 1rem 2rem;
 
   border-radius: 10px;
 
@@ -22,13 +21,22 @@
 
   &.primary {
     color: #fff;
-    font-size: 15px;
+    font-size: 10px;
+    @media screen and (min-width: 768px) {
+      font-size: 15px;
+    }
   }
 
   &.secondary {
     color: #fff;
     font-size: 15px;
     background: rgba(0, 0, 0, 0.038);
+    // background-color: red;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    padding: 1rem 2rem;
   }
 }
 

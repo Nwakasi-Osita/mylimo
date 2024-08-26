@@ -26,79 +26,60 @@ export default function HomePage() {
           </div>
         </Container>
       </div>
+
+      {/* //////////////////// */}
+
       <div className={styles.UserScheduleSection}>
         <Container className={styles.menu}>
-          <ul>
-            <li>
-              <a href="#">Hourly </a>
+          <div className={styles.dropDown}>
+            {/* //////// */}
 
-              <ul className={styles.dropDown}>
-                <li>
-                  <div className={styles.menuInfo}>
-                    <div className={styles.menuHeader}>
-                      <h4>Pick Up Address</h4>{" "}
-                    </div>
-                    <div className={styles.userInfo}>
-                      <img src="images/location-icon.svg" alt="" />
-                      <span>
-                        <p>Enter Location</p>{" "}
-                      </span>
-                    </div>
-                  </div>
-                  <div className={styles.lineDemacation}></div>
-                </li>
+            <div className={styles.menuInfo}>
+              <div className={styles.menuHeader}>
+                <h4>Pick Up Address</h4>
+              </div>
+              <div className={styles.userInfo}>
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+            </div>
+            {/* <div className={styles.lineDemacation}></div> */}
 
-                <li>
-                  <div className={styles.menuInfo}>
-                    <div className={styles.menuHeader}>
-                      <h4>Drop Off Address</h4>{" "}
-                    </div>
+            <div className={styles.menuInfo}>
+              <div className={styles.menuHeader}>
+                <h4>Drop Off Address</h4>{" "}
+              </div>
 
-                    <div className={styles.userInfo}>
-                      <img src="images/location-icon.svg" alt="" />
-                      <span>
-                        <p>Enter Location</p>
-                      </span>
-                    </div>
-                  </div>
+              <div className={styles.userInfo}>
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+            </div>
 
-                  <div className={styles.lineDemacation}></div>
-                </li>
+            {/* <div className={styles.lineDemacation}></div> */}
 
-                <li>
-                  <div className={styles.menuInfo}>
-                    <div className={styles.menuHeader}>
-                      {" "}
-                      <h4> Pick Up Date </h4>
-                    </div>
+            <div className={styles.menuInfo}>
+              <div className={styles.menuHeader}>
+                <h4> Pick Up Date </h4>
+              </div>
 
-                    <div className={styles.userInfo}>
-                      <img src="images/calender-icon.svg" alt="" />
-                    </div>
-                  </div>
+              <div className={styles.userInfo}>
+                <img src="images/calender-icon.svg" alt="" />
+              </div>
+            </div>
 
-                  <div className={styles.lineDemacation}></div>
-                </li>
+            {/* <div className={styles.lineDemacation}></div> */}
 
-                <li>
-                  <div className={styles.menuInfo}>
-                    <div className={styles.menuHeader}>
-                      <h4>Pick Up Time</h4>{" "}
-                    </div>
+            <div className={styles.menuInfo}>
+              <div className={styles.menuHeader}>
+                <h4>Pick Up Time</h4>{" "}
+              </div>
 
-                    <div className={styles.userInfo}>
-                      <img src="images/time-icon.svg" alt="" />
-                    </div>
-                  </div>
-                </li>
-                <Button type="primary">Search</Button>
-              </ul>
-            </li>
+              <div className={styles.userInfo}>
+                <img src="images/time-icon.svg" alt="" />
+              </div>
+            </div>
 
-            <li>
-              <Link href="/"> Distance</Link>
-            </li>
-          </ul>
+            <Button type="primary">Search</Button>
+          </div>
         </Container>
       </div>
 
