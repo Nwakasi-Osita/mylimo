@@ -239,8 +239,8 @@
   padding: 1rem;
   top: -20px;
   right: 100px;
-  width: 220px;
-  height: 150px;
+  width: 225px;
+  height: 160px;
 }
 @media screen and (min-width: 768px) {
   .aboutCompanySection .aboutCompanyImgSection .aboutCompanyImgBackground {
