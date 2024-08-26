@@ -210,6 +210,7 @@
   }
 }
 .ourServiceSection .serviceDetails .serviceDetailedInfo {
+  line-height: 25px;
   font-size: 10px;
 }
 @media screen and (min-width: 768px) {
@@ -304,6 +305,10 @@
   }
 }
 
+.aboutCompanyDetails {
+  line-height: 25px;
+}
+
 .aboutCompanyDetailedInfoImages {
   background-color: rgba(0, 0, 0, 0.7803921569);
   color: #fff;
@@ -322,7 +327,6 @@
 .aboutCompanyDetailedInfoImage {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 .aboutCompanyDetailedInfoImage .aboutCompanyDetailedImage {
   display: flex;

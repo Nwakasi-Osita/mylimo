@@ -255,6 +255,8 @@
       }
     }
     .serviceDetailedInfo {
+      line-height: 25px;
+
       font-size: 10px;
       @media screen and (min-width: 768px) {
         font-size: 18px;
@@ -349,6 +351,10 @@
   }
 }
 
+.aboutCompanyDetails {
+  line-height: 25px;
+}
+
 .aboutCompanyDetailedInfoImages {
   background-color: #000000c7;
   color: #fff;
@@ -365,7 +371,7 @@
 .aboutCompanyDetailedInfoImage {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  // gap: 10px;
 
   .aboutCompanyDetailedImage {
     display: flex;
@@ -381,10 +387,17 @@
         width: 30%;
       }
     }
+
     @media screen and (min-width: 768px) {
       align-items: center;
     }
   }
+
+  .aboutCompanyImageInfo {
+    // color: red !important;
+    // line-height: 0 !important;
+  }
+
   @media screen and (min-width: 768px) {
     gap: 7px;
   }
