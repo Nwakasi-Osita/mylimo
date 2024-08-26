@@ -48,11 +48,6 @@
   line-height: 25px;
   align-items: center;
 }
-@media screen and (min-width: 768px) {
-  .footerSection .footerSectionDetails p {
-    line-height: 45px;
-  }
-}
 .footerSection .footerSectionDetails span {
   padding: 0 5px;
 }
