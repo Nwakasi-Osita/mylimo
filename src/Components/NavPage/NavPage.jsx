@@ -22,7 +22,7 @@ export default function NavPage() {
           </ul>
         </div>
 
-        <div className={styles.convertingLanguages}>
+        {/* <div className={styles.convertingLanguages}>
           <select name="language" id="" className={styles.languages}>
             <option value="swedish"> SWEDISH</option>
             <option value="hindi"> INDIA</option>{" "}
@@ -31,7 +31,7 @@ export default function NavPage() {
               ENG
             </option>
           </select>
-        </div>
+        </div> */}
       </Container>
     </>
   );
